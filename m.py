@@ -8,10 +8,10 @@ import os
 from keep_alive import keep_alive
 keep_alive()
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7621851629:AAF15g_b-nlJf-ABjehLSb7WYOlZNZ1fLZg')
+bot = telebot.TeleBot('7175088392:AAHJgtnlZyJMCj7RB6scqlSF_q0ROeJ8jLI')
 
 # Admin user IDs
-admin_id = ["1895702860"]
+admin_id = ["1676270773"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -451,5 +451,6 @@ while True:
         bot.polling(none_stop=True)
     except Exception as e:
         print(e)
+
 
 
